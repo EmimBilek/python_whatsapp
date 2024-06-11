@@ -1,5 +1,5 @@
 # package yang dibutuhkan untuk whatsapp selenium
-from selenium import webdriver
+from selenium import webdriver # install package selenium -> pip install selenium
 from selenium.webdriver.common.keys import Keys
 import time
 import csv
@@ -15,7 +15,7 @@ input("Tekan enter setelah scan qr") #tekan enter setelah scan qr
 
 with open("contacts.csv", newline="") as csvfile: #buka file contacts.csv
     
-    readContact = csv.reader(csvfile)
+    readContact = csv.reader(csvfile) # membaca file csv
 
     for phone,message in readContact:
 

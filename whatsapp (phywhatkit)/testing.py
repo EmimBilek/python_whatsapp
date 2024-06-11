@@ -1,7 +1,8 @@
-import pywhatkit
+# dokumentasi pywhatkit -> https://github.com/Ankit404butfound/PyWhatKit/wiki/Sending-WhatsApp-Messages
+import pywhatkit # install package pywhatkit -> pip install pywhatkit
 import time
 
-#kirim pesan langsung, harus login whatsapp dulu ->
+# kirim pesan langsung, harus login whatsapp dulu ->
 numandmsg = [
     {'nomor' : '+6281282805886', 'pesan' : 'test yup'},
     {'nomor' : '+628997670186', 'pesan' : 'test jang'},

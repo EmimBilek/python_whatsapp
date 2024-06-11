@@ -1,0 +1,18 @@
+INSTALL PYTHON :
+1. download python di situs resmi python -> https://www.python.org/downloads/
+2. install python (jangan lupa untuk menceklis Add Python to PATH) dan selesaikan langkah2 install
+3. install sudah selesai
+4. cek python dengan menjalankan perintah 'python --version' di terminal (jika muncul versi python, maka sudah terinstall dengan baik)
+
+INSTALL PIP (harus tersambung dengan internet) :
+1. buka terminal (Windows + R -> ketik 'cmd')
+2. jalankan perintah -> curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+3. jalankan perintah -> python get-pip.py (harus install python dulu)
+4. tunggu prosesnya sampai selesai
+5. salin directory path dimana pip.exe nya terinstall
+6. buka 'Edit the system environment variables' di pengaturan
+7. di tab 'Advanced', klik tombol 'Environment variables'
+8. edit variable 'Path' yang ada di 'User variables' atau 'System variables' (pilih salah satu)
+9. klik tombol 'New' di kanan atas, lalu tempel directory path yang sudah disalin
+10. klik Ok, kemudian Ok, lalu Ok, dan tahapan install pip sudah selesai
+11. cek pip dengan menjalankan perintah 'pip --version' di terminal (jika muncul versi pip, maka sudah terinstall dengan baik)
