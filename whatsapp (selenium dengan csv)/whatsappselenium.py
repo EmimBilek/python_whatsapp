@@ -30,10 +30,10 @@ with open("contacts.csv", newline="") as csvfile: #buka file contacts.csv
 
         time.sleep(45) #jeda, sesuaikan dengan kecepatan internet
 
-        content = driver.switch_to.active_element
+        content = driver.switch_to.active_element #variabel text chat whatsapp
 
         content.send_keys(msg) #menuliskan pesan di text pesan
 
         content.send_keys(Keys.RETURN) #menekan tombol enter setelah menuliskan pesan
 
-        time.sleep(3) # jeda untuk mengirimkan pesan yang lain, sesuaikan dengan kecepatan internet kamu
+        time.sleep(3) # jeda untuk mengirimkan pesan yang lain, sesuaikan dengan kecepatan internet
